@@ -57,6 +57,13 @@ body {
 		display: inline;
 		width:100%;
 		overflow:initial;
+		
+		margin:0px auto;	
+		padding:0px;
+		vertical-align:top;
+		text-align:left;
+		display: block;
+	    overflow:hidden;
 	}
 }
 
