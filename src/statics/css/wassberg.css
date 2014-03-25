@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
+}
+#footer, .push {
+    height: 155px; /* '.push' must be the same height as 'footer' */
+}
+
+body {
+    text-align: center;
+}
+
+.profileImg {
+    width: 250px;
+}
+
+#menu {
+    border-bottom: 2px solid #dedede;
+}
+
+#menu_items {
+    padding: 0px;
+    padding-top: 25px;
+    padding-right: 10px;
+    margin: 0px;
+    margin-bottom: 25px;
+}
+
+.menu_item {
+    display: inline-block;
+    margin-left: 10px;
+}
+#container {
+    position:relative;
+}
+#contentContainer {
+    width: 80%;
+    margin: 0 auto;
+    border-top: 2px solid #dedede;
+}
+
+#infoSpan {
+    float: left;
+    display: inline-block;
+    border-right: 2px solid #dedede;
+    margin: 0px auto;
+    padding: 0px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+#infoContent {
+    margin: 20px;
+}
+
+#feedSpan {
+    margin: 0px auto;
+    padding: 0px;
+    vertical-align: top;
+    text-align: left;
+    display: block;
+    overflow: hidden;
+}
+
+#feedContent {
+    margin: 20px 0px;
+}
+
+/*
+
+#sHeader{
+    margin: 0px;
+}
+#sMain{
+    padding-bottom:60px;   */
+/* Height of the footer *//*
+
+}
+
+#sFooter{
+    position:absolute;
+    bottom:0;
+    height:60px;   */
+/* Height of the footer *//*
+
+    padding:30px;
+    margin: 20px 0px;
+    */
+/*z-index:100020;*//*
+
+    border-top: 2px solid #dedede;
+
+}
+#footerspan{
+
+    margin:0 auto;
+    text-align:left;
+    position: relative;
+
+    */
+/*border-style:solid;
+        border-width:medium;*//*
+
+    width: 370px;
+    padding: 0px;
+
+    font-family:"Courier New", sans-serif;
+    font-size:12px;
+
+}
+*/
+
+/*z-index:100020;*/
+
+
+@media only screen and (max-width: 800px), only screen and (max-device-width: 800px) {
+    #contentContainer {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 675px), only screen and (max-device-width: 675px) {
+    #infoSpan {
+        width: 100%;
+        float: right;
+        display: inline;
+        border-right: 0px solid #dedede;
+        border-bottom: 2px solid #dedede;
+        overflow: initial;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    #feedSpan {
+        float: auto;
+        display: inline;
+        width: 100%;
+        overflow: initial;
+
+        margin: 0px auto;
+        padding: 0px;
+        vertical-align: top;
+        text-align: left;
+        display: block;
+        overflow: hidden;
+    }
+}
+
+
+
+
+
+
+
