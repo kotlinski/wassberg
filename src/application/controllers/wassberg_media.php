@@ -27,7 +27,7 @@ class Wassberg_media extends CI_Controller {
         if ($page_id == 999){
 
         } else { //STARTPAGE_ID
-            $data['selected_module'] = $this->load->view('startpage/index', '', TRUE);
+            $data['selected_module'] = $this->load->view('startpage/index', $data, TRUE);
             $data['title'] = 'Hem';
         }
         $data['menu'] = $this->load->view('templates/menu', $data, TRUE);
