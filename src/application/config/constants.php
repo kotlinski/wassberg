@@ -40,7 +40,11 @@ define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
 /*
  * Wassberg constants.
  */
-define('STARTPAGE_ID', 0);
+define('HOME_ID', 0);
+define('WEDDING_ID', 1);
+define('PRODUCTION_ID', 2);
+define('INSPIRATION_ID', 3);
+define('CONTACT_ID', 4);
 
 /* End of file constants.php */
 /* Location: ./application/config/constants.php */

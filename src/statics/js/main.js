@@ -3,7 +3,7 @@ $(function() {
 	var $allVideos = $("iframe[src^='http://www.youtube.com']"),
 
 		// The element that is fluid width
-		$fluidEl = $("#feedSpan");
+		$fluidEl = $("#module_wrapper");
 
 	// Figure out and save aspect ratio for each video
 	$allVideos.each(function() {

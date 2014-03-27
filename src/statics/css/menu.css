@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+}
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('../fonts/bebasneue-webfont.eot');
+    src: url('../fonts/bebasneue-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/bebasneue-webfont.woff') format('woff'),
+    url('../fonts/bebasneue-webfont.ttf') format('truetype'),
+    url('../fonts/bebasneue-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a.menu_href:link {text-decoration:none;color:#000;}      /* unvisited link */
+a.menu_href:visited {text-decoration:none;color:#000;}  /* visited link */
+a.menu_href:hover {text-decoration:none;color:#000;}  /* mouse over link */
+a.menu_href:active {text-decoration:none;color:#000;}  /* selected link */
+
+#menu {
+    border-bottom: 2px solid #dedede;
+}
+
+#menu_items {
+    padding: 0px;
+    padding-top: 25px;
+    padding-right: 10px;
+    margin: 0px;
+    margin-bottom: 19px;
+}
+
+.menu_item {
+    display: inline-block;
+    margin-left: 8px;
+    font-size: 18px;
+    font-family: 'bebas_neueregular', serif;
+    text-decoration:none;
+    padding:0;
+}

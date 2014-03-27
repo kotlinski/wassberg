@@ -1,5 +1,5 @@
 /*Trix for sticky footer*/
-*, p {
+*, p, h1, h2, h3 {
     margin: 0;
     padding: 0;
 }
@@ -16,5 +16,8 @@ html, body {
 #footer, .push {
     clear:both;
     height: 55px; /* '.push' must be the same height as 'footer' */
+}
+.footer-style {
+    padding-top: 15px;
 }
 /* End trix for sticky footer */
