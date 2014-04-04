@@ -76,6 +76,9 @@ a:active {color:#000;}  /* selected link */
     margin-left: 20px;
 }
 
+#headerImage {
+    margin: 20px;
+}
 @media only screen and (max-width: 800px), only screen and (max-device-width: 800px) {
     #contentContainer {
         width: 95%;
@@ -83,6 +86,11 @@ a:active {color:#000;}  /* selected link */
 }
 
 @media only screen and (max-width: 675px), only screen and (max-device-width: 675px) {
+    #headerImage {
+        margin: 20px 0px;
+        width:100%;height:auto;
+    }
+
     #menu_wrapper {
         width: 100%;
         float: right;

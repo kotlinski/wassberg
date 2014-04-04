@@ -41,9 +41,9 @@
 <body>
 <div class="wrapper">
 	<div>
-		<h1 id="primary_header">Wassberg Media</h1>
-
-		<h2 id="secondary_header">Bröllopsfotografering och redigering</h2>
+		<img id="headerImage" src="/statics/img/header.png" />
+<!--		<h1 id="primary_header">Wassberg Media</h1>-->
+<!--		<h2 id="secondary_header">Bröllopsfotografering och redigering</h2>-->
 
 	</div>
 	<div id="contentContainer">
